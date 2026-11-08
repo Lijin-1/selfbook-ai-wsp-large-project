@@ -29,6 +29,10 @@ pip install -r requirements.txt
 ```bash
 python -m uvicorn backend:app --reload
 ```
+or
+```bash
+python -m uvicorn backend:app --reload --host 127.0.0.1 --port 8000
+```
 
 Open the API documentation:
 
@@ -62,3 +66,5 @@ http://127.0.0.1:8000/docs
 ## GitHub Repository
 
 https://github.com/Lijin-1/selfbook-ai-wsp-large-project
+
+
